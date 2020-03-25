@@ -1,0 +1,348 @@
+
+    body{
+        font-family: 'Roboto', sans-serif;
+        margin: 4vh;
+        padding: 0px;
+        background-color: #ffffff;
+        background-repeat: no-repeat;
+        
+    }
+
+
+
+
+#Home h2{
+    margin-top: 70px;
+    font-weight: 600;
+}
+
+#Home p{
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+#Home a{
+    margin-top: 20px;
+}
+
+#Home .container-fluid{
+    background-color: rgb(200, 226, 238);
+    border-radius: 0.9em;
+}
+
+#Home img{
+    position: relative;
+    padding: 30px 0px;
+    overflow: hidden;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+}
+
+
+#Categories{
+    
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    
+
+}
+#Categories .Categories button{
+    position: absolute;
+    display: flex;
+    margin-top: 115px;
+    transform: rotate(-90deg);
+    font-weight: 800;
+    font-size: 18px;
+    margin-left: -18vh;
+    padding: 13px 90px;
+    background-color: #fff;
+    color: rgb(46, 144, 224);
+    border-color: rgb(46, 144, 224);
+    border-radius: 5px;
+
+}
+#Categories .one{
+    background-color: #df729c;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    left: -100px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 330px;
+    margin: 0px auto;
+    
+}
+
+#Categories .one h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+#Categories .two{
+    background-color: #f5e049;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    left: -100px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 330px;
+    margin: 5px auto;
+}
+
+#Categories .two h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#Categories .three{
+    background-color: #7fd6c3;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    left: -80px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 330px;
+    margin: 5px auto;
+}
+
+#Categories .three h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+#Categories .four{
+    background-color: #abc6fd;
+    flex-direction: row;
+    justify-content: start;
+    position: relative;
+    left: -80px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 330px;
+    margin: 5px auto;
+}
+
+#Categories .four h2{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+#Categories img{
+   
+   margin: 10px 6px 6px 6px;
+   height: 110px;
+   width: 140px;
+   border: 2px solid #ffffff;
+   border-radius: 10px;
+}
+
+
+
+
+
+#courses h4{
+    position: relative;
+    left: 127vh;
+}
+
+#About{
+    margin-top: 15vh;
+}
+
+#About img{
+    margin-top: 15px;
+}
+#About h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+#About h3{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#Contact .container-fluid{
+    margin-top: 30vh;
+    padding-bottom: 1em;
+    background-color:  rgb(200, 226, 238);
+    
+}
+
+#Contact h4{
+   margin-top: 50px;
+   font-weight: 600; 
+}
+
+#Contact h6{
+    font-weight: 600;
+}
+
+#Contact p{
+    font-weight: 500 ;
+}
+
+#Blogs{
+    margin-top: 50px;
+    margin-left: -4vh;
+    margin-right: -4vh;
+}
+
+#Blogs h3{
+    margin-top: 7vh;
+    color: rgb(35, 178, 235);
+    font-weight: 600;
+
+}
+#Blogs img{
+    margin-top: 30px;
+    height: 35px;
+    width: 130px;
+    
+}
+
+#Blogs h6{
+    margin-top: 10vh;
+    color: #fff;
+    font-weight: 600;
+}
+
+#Blogs p{
+    color: #fff;
+}
+
+#Blogs .btn-group button{
+    border: 1px solid white;
+    padding: 10px 24px;
+    float: left;
+}
+
+#Blogs .btn-group button:not(:last-child){
+    border-right: none;
+}
+
+#Blogs .btn-group:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#Blogs footer{
+    margin-bottom: 20px;
+}
+
+#Blogs footer .active{
+    color: white;
+}
+
+
+#Contact img{
+    height: 30px;
+    width: 90px;
+}
+hr{
+   margin-top: 60px; 
+}
+
+@media screen and (max-width: 600px){
+    #Categories{
+        justify-content: right;
+        align-items: right;
+        margin: 20px auto;
+    }
+    .one,.two,.three,.four {
+        left: unset!important;
+        background-color:unset!important;
+        text-align: center;
+        width: unset!important;
+    }
+    .row {
+        display: block;
+        border-radius:1em;
+    }
+    #Categories .Categories button{
+        position: static;
+        display: block;
+        margin-top: 115px;
+        font-weight: 800;
+        font-size: 18px;
+        margin-left: unset;
+        padding: 13px 90px;
+        transform: unset;
+        background-color: #fff;
+        color: rgb(46, 144, 224);
+        border-color: rgb(46, 144, 224);
+        border-radius: 5px;
+    }
+    .container-fluid img {
+        margin-top: unset!important;
+    }
+    .col-6 {
+        max-width: 100%;
+    }
+    #courses h4 
+    {
+        left: unset;
+    }
+    .col-md-4 .one,
+    .col-md-4 .two,
+    .col-md-4 .three,
+    .col-md-4 .four{
+        text-align:center;
+    }
+    #Categories h2
+    {
+        text-align: center;
+    }
+    #Categories .col-md-5 .row:nth-child(1){
+        background-color: #7fd6c3;
+        padding: 1em 0 1em 0;
+        margin-bottom: 1em;
+    }
+    #Categories .col-md-5 .row:nth-child(2){
+        background-color: #abc6fd;
+        padding: 1em 0 1em 0;
+        margin-bottom: 1em;
+    }
+    #Categories .col-md-5.col-md-5.mt-2 .row:nth-child(1){
+        background-color: #df729c;
+        padding: 1em 0 1em 0;
+        margin-bottom: 1em;
+    }
+    #Categories .col-md-5.mt-2 .row:nth-child(2){
+        background-color: #f5e049;
+        padding: 1em 0 1em 0;
+        margin-bottom: 1em;
+    }
+
+}
+
+
+
+
+
+
+
+
